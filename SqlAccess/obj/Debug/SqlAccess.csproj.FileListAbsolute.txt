@@ -1,0 +1,5 @@
+C:\Users\johnmott59\source\repos\RecordTracker\RecordTracker\SqlAccess\bin\Debug\SqlAccess.dll
+C:\Users\johnmott59\source\repos\RecordTracker\RecordTracker\SqlAccess\bin\Debug\SqlAccess.pdb
+C:\Users\johnmott59\source\repos\RecordTracker\RecordTracker\SqlAccess\obj\Debug\SqlAccess.csproj.CoreCompileInputs.cache
+C:\Users\johnmott59\source\repos\RecordTracker\RecordTracker\SqlAccess\obj\Debug\SqlAccess.dll
+C:\Users\johnmott59\source\repos\RecordTracker\RecordTracker\SqlAccess\obj\Debug\SqlAccess.pdb

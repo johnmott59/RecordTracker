@@ -1,0 +1,23 @@
+﻿<Window x:Class="RecordTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RecordTracker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="380.939" Width="425">
+    <Grid Margin="0,0,38,72">
+        <Button x:Name="btnFindRecords" IsEnabled="False" Content="Find" Click="btnFindRecords_Click" HorizontalAlignment="Left" Margin="131,213,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox x:Name="cmbTableName"  SelectionChanged="cmbTableName_Selected" HorizontalAlignment="Left" Margin="131,104,0,0" VerticalAlignment="Top" Width="239"/>
+        <ComboBox x:Name="cmbFieldNames" HorizontalAlignment="Left" Height="21" Margin="131,135,0,0" VerticalAlignment="Top" Width="239"/>
+        <TextBox x:Name="txtFieldValue" HorizontalAlignment="Left" Height="28" Margin="131,168,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="239"/>
+        <TextBox x:Name="txtConnectionString" HorizontalAlignment="Left" Height="23" Margin="28,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="436"/>
+        <Label x:Name="label" Content="Connection String Override (default in App.Config)" HorizontalAlignment="Left" Margin="28,8,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnConnectSql" Content="Connect To SQL" Click="btnConnectSql_Click" HorizontalAlignment="Left" Margin="28,62,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label x:Name="label1" Content="Tables" HorizontalAlignment="Left" Margin="81,104,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label x:Name="label2" Content="Columns" HorizontalAlignment="Left" Height="35" Margin="65,135,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label x:Name="label3" Content="Value of Column" HorizontalAlignment="Left" Margin="28,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.236,0.176" Width="103"/>
+        <Label x:Name="lblConnectionStatus" Content="Closed" HorizontalAlignment="Left" Margin="158,56,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
